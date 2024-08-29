@@ -1,1 +1,185 @@
 
+body{
+    padding: 0px;
+    margin: 0px;
+
+}
+/* <!-------------------------------- NAV BAR SECTION STARTS HERE---------------- --> */
+header{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: fixed; */
+    /* left: 10px; */
+}
+
+
+.navheading h2{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.components ol{
+    display: flex;
+    gap: 30px;
+} 
+ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(110, 108, 108);
+}
+li :hover{
+    color: rgb(63, 62, 62);
+}
+.buttons{
+    display: flex; 
+    gap: 8px;
+}
+.buttons button{
+    height: 30px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+.buttons :hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+/* <!-------------------------------- NAV BAR SECTION ENDS HERE---------------- --> */
+/* <!-------------------------------- HERO SECTION STARTS HERE---------------- --> */
+.image{
+    height: 400px;
+    width: 98%;
+    margin-left: 15px;
+    margin-top: 80px;
+    position: relative;
+    /* padding: 20px; */
+    /* border: 1px solid red; */
+}
+.image img{
+    height: 400px;
+    width: 100%;
+    object-fit: fill; 
+}
+.text {
+    position: absolute;
+    color: red;
+    margin-top: -270px;
+    margin-left: 30px;
+}
+.text h2{
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;;
+}
+.text p{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -15px;
+    font-family: Arial, sans-serif;;
+}
+/* <!-------------------------------- HERO SECTION ends HERE---------------- --> */
+/* <!------------------------ LATEST PRODUCTS STARTS HERE---------- --> */
+h1{
+    color: rgb(63, 62, 62);
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+hr{
+    width: 95%;
+}
+.buttonfilter{
+    height: 30px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+.buttonfilter button{
+    height: 30px;
+    /* width: 130px; */
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: rgb(110, 108, 108);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* background-color: black;
+    color: white; */
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    /* height: 400px; */
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.product-item img {
+    width: 100%;
+    height: 150px;
+    /* height: auto; */
+}
+.clamped-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: x; /* Change this number to the desired number of lines */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+:root {
+    --char-count: 14; /* Control the number of characters here */
+}
+.clamped-text1 {
+    width: calc(var(--char-count) * 1ch);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    line-clamp: x; /* Change this number to the desired number of lines */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-item button{
+    background-color: black;
+    color: white;
+    /* height: 50px;
+    width: 100px; */
+    border-radius: 5px;
+}
+/* <!------------------------ LATEST PRODUCTS Ends HERE---------- --> */
+
