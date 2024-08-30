@@ -183,3 +183,7 @@ hr{
 }
 /* <!------------------------ LATEST PRODUCTS Ends HERE---------- --> */
 
+footer{
+    display: flex;
+    justify-content: center;
+}
