@@ -187,3 +187,97 @@ footer{
     display: flex;
     justify-content: center;
 }
+.cart-items{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    gap: 30px;
+    /* justify-content: center;
+    height: 300px;
+    width: 100%;
+    border: 1px solid red; */
+}
+ /* .cart-item{ 
+    display: flex;
+
+} */
+/* .cart-item button{
+    height: 20px;
+    width: 70px;
+    box-sizing: border-box;
+}  */
+/* .order-details{
+    display: flex;
+} */
+/* footer{
+    display: flex;
+    justify-content: center;
+} */
+table{
+    border: 1px solid black;
+    /* width: 1000px; */
+
+}
+
+th{
+    /* border: 1px solid red; */
+    text-align: start;
+    height: 40px;
+    background-color: whitesmoke;
+    /* width: 300px; */
+}
+table h3{
+    font-size: 10px;
+   
+}
+table  td button{
+    height: 20px;
+    border-style: none;
+    /* font-size: 2px; */
+}
+
+/* PRODUCTS SECTION */
+.product-detail{
+    margin-top: 100px;
+    display: flex;
+    /* width: 100%; */
+    /* border: 1px solid red; */
+}
+ 
+  .details{
+    /* border: 1px solid green;*/
+    height: 300px;
+    margin-left: 180px;
+} 
+.details p{
+    font-size: 20px;
+}
+
+.order-details .table1{
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 70px; */
+    margin-top: -18px;
+
+}
+
+.order-details  .spn{
+    margin-left: 140px;
+}
+.order-details .spn1{
+    margin-left: 170px;
+}
+.order-details h2{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    /* height: 60px; */
+}
+.order-details button{
+    margin-left: 100px;
+    margin-top: 2px;
+    height: 30px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
